@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T18:28:21.878Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1lueYh8aYXGj5__pYJyO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T18:45:07.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7FmQwFSr1-psAUaxBya9" version="22.0.8" type="github">
   <diagram name="Page-1" id="sNI2kIY_raFPjCWxXRvN">
-    <mxGraphModel dx="1350" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
             <mxPoint x="407" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-1" value=":SocketIOServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-1" value=":APIgateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="270" y="150" width="100" height="690" as="geometry" />
         </mxCell>
         <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1jgHlxHCcbM1ZvZu2Sm4-1">
@@ -141,7 +141,7 @@
             <mxPoint x="184.81034482758628" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="321" y="810" as="sourcePoint" />
             <mxPoint x="186.81034482758628" y="810" as="targetPoint" />
@@ -152,6 +152,42 @@
             <mxPoint x="185.81034482758628" y="530" as="sourcePoint" />
             <mxPoint x="315" y="530" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-10" value="Forward emit request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186" y="198" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-11" value="Return emit request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="398" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-12" value="Forward Peer Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="370" as="sourcePoint" />
+            <mxPoint x="187.81034482758628" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-17" value="Return emit request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="198" y="338" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="313" y="306" as="sourcePoint" />
+            <mxPoint x="186.81034482758628" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-22" value="Return emit request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="197" y="274" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="600" as="sourcePoint" />
+            <mxPoint x="188.81034482758628" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jgHlxHCcbM1ZvZu2Sm4-24" value="Return emit request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="199" y="568" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
