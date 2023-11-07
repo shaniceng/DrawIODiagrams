@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T13:45:24.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ke-Adnl9Djod848pP2xP" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T14:11:53.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kKIa8DMjDBog6mY3GDwb" version="22.0.8" type="github">
   <diagram name="Page-1" id="4HfbkdkASWRsCOX61LqS">
     <mxGraphModel dx="1574" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="20" y="20" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="zmcNavL3_rGBEc4_Ughz-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zmcNavL3_rGBEc4_Ughz-4">
-          <mxGeometry x="45" y="70" width="10" height="220" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="zmcNavL3_rGBEc4_Ughz-6" value="useEffect()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="zmcNavL3_rGBEc4_Ughz-4" target="zmcNavL3_rGBEc4_Ughz-5">
           <mxGeometry relative="1" as="geometry">
@@ -19,16 +19,61 @@
           <mxGeometry x="200" y="20" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="zmcNavL3_rGBEc4_Ughz-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zmcNavL3_rGBEc4_Ughz-8">
-          <mxGeometry x="45" y="80" width="10" height="210" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zmcNavL3_rGBEc4_Ughz-12" value="emit(&quot;messageNotification&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="244.99999999999977" y="100" as="sourcePoint" />
+          <mxGeometry x="-0.002" relative="1" as="geometry">
+            <mxPoint x="244.99999999999977" y="140" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="190" y="100" />
-              <mxPoint x="170" y="140" />
+              <mxPoint x="190" y="140" />
+              <mxPoint x="170" y="180" />
             </Array>
-            <mxPoint x="74.99999999999977" y="100" as="targetPoint" />
+            <mxPoint x="74.99999999999977" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcNavL3_rGBEc4_Ughz-15" value="emit(&quot;join-room&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="zmcNavL3_rGBEc4_Ughz-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="170" y="100" />
+              <mxPoint x="190" y="60" />
+            </Array>
+            <mxPoint x="244.99999999999977" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcNavL3_rGBEc4_Ughz-17" value="emit(&quot;message&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="zmcNavL3_rGBEc4_Ughz-18">
+          <mxGeometry x="-0.002" relative="1" as="geometry">
+            <mxPoint x="75.99999999999977" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="191" y="200" />
+            </Array>
+            <mxPoint x="245.99999999999977" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcNavL3_rGBEc4_Ughz-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcNavL3_rGBEc4_Ughz-19" value="eventListened &quot;submit&quot;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="zmcNavL3_rGBEc4_Ughz-18" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcNavL3_rGBEc4_Ughz-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="246" y="200" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcNavL3_rGBEc4_Ughz-22" value="emit(&quot;message&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.002" relative="1" as="geometry">
+            <mxPoint x="246" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="187" y="260" />
+            </Array>
+            <mxPoint x="76" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
